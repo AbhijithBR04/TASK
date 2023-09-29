@@ -151,3 +151,92 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+#r1{
+    text-align: center;font-family: sans-serif;
+    font-size: medium; 
+    margin-top: 0px ; 
+    margin-bottom: 20px; flex: auto;
+}
+#r2{
+    background-color: rgb(0, 140, 255);
+    text-align: center;
+    height:500px;width:100%;
+}
+#r3{
+    background-color: rgb(4, 47, 82); 
+    margin-top: -20px; 
+    text-align: center;
+}
+#ig1{
+    height: 60px; 
+    width: 80px; 
+    position:relative; 
+    right: 0%;
+    margin-top: -20px;
+}
+#head1{
+    color: white;
+    padding-top: 48px;
+    size: 50%;
+     font-family: sans-serif;
+}
+#head2{
+    color: white;
+    padding-top: 48px;
+    size: 50%; 
+    font-family: sans-serif;
+    text-align: center;
+}
+#head3{
+    margin-top: 90px;
+    color: blue;
+}
+#head4{
+    color: black;
+}
+#head5{
+    margin-top: 90px;
+    color: blue;
+}
+#head6{
+    color: black;
+}
+#head7{
+    color: black;
+}
+#head8{
+    margin-top: 90px;color: blue;
+}
+#head9{
+    margin-top: 90px;color: blue;text-align: center;
+}
+#r4{
+    background-color: rgb(0, 140, 255);
+    text-align: center;height:500px;width:100%;
+}
+#head11{
+    color: white;padding-top: 48px;size: 50%; font-family: sans-serif;
+}
+#head12{
+    font-size: small;
+}
+#s1{
+    margin-top: 20px;
+}
+#s2{
+    margin-top: -20px;
+}
+#s3{
+    color: gray;
+}
+#s4{
+    text-align: center;
+}
+#headmain{
+    font-family: sans-serif;
+}
+#mar{
+    margin: 42px;
+}
