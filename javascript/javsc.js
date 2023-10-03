@@ -1,8 +1,8 @@
 // document.write("abhi")
 
-// let a="abhijith bhadran r "
-// let b=a.slice(-9)
-// console.log(b)
+let a="abhijith bhadran r "
+let b=a.slice(-9)
+console.log(b)
 
 
 
