@@ -64,7 +64,7 @@ function Final(){
                     {fnameerr?<span style={{color:"red"}} >* Not Valid</span>:null}
                     <br />
                     <label>Email :</label>
-                    <input name="email" type="text" value={email} style={{padding: "0.2rem 0.5rem"}} onChange={emailhandle}/>
+                    <input name="email" type="email" value={email} style={{padding: "0.2rem 0.5rem"}} onChange={emailhandle}/>
                     {emailerr?<span style={{color:"red"}} >* Enter a valid email</span>:null}
                     <br />
                     <label>Phone :</label>
