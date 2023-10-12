@@ -44,13 +44,14 @@ const[userdata,setUserdata]=useState()
                         borderRadius: "4px"}}>submit</button>
                 </form>
             </div>
-            {userdata? <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'100vh'}}>
-                <p>name:{userdata.fname}</p>
-                <p>Email:{userdata.email}</p>
-                <p>Phone number:{userdata.number}</p>
-                <p>DOB:{userdata.dob}</p>
-                <p>Gender:{userdata.gender}</p>
-            </div>:null}
+            {userdata? <div style={{alignItems:'center',justifyContent:'center',height:'100vh'}}>
+                            <h3>name: {userdata.fname}</h3>                           
+                            <h3>Email: {userdata.email}</h3>                           
+                            <h3>Phone number: {userdata.number}</h3>                           
+                            <h3>DOB: {userdata.dob}</h3>
+                            <h3>Gender: {userdata.gender}</h3>
+                        </div>
+                    :null}
         </div>
     )
 }
