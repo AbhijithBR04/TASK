@@ -1,0 +1,60 @@
+form{
+    background: white;
+    border: 1px solid #eec0c0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 30px 50px;
+  }
+  input {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0px;
+    border: 1px solid #eec0c0;
+  }
+
+  li {
+    width: 450px;
+    position: relative;
+    padding: 0.85em;
+    text-align: right;
+    margin-bottom: 0.5rem;
+    background: #ffffff;
+    letter-spacing: 0.02rem;
+    transition: all 0.3s ease-out;
+    border-left: 5px solid #f0efee;
+  }
+
+
+
+  .editicon{
+    position: relative;
+    right: -100%;
+    
+  }
+
+  .deleteicon{
+    position: relative;
+    right: -110%;
+    
+  }
+
+  button {
+    width: 120px;
+    padding: 0.8em;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    background: white;
+    border: 1px solid #e41212;
+  }
