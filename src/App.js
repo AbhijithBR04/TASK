@@ -39,7 +39,7 @@ function App() {
         setBvalue(a)
       }}>Click to add numbers like an array</button>
 
-      <Objectnew/>
+      
     </div>
   );
 }

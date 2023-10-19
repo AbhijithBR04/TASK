@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import Test from './Test01';
 import Final from './Form';
 import Hookform from './Hookform'
+import Effects from './Effects';
+import Gith from './Gith';
 
 
 
@@ -16,8 +18,10 @@ root.render(
     {/* <User />
     <App />
     <Final/>
-    <Test /> */}
-    <Hookform/>
+    <Test />
+    <Hookform/> */}
+    <Effects />
+    {/* <Gith /> */}
 
   </React.StrictMode>
 );
