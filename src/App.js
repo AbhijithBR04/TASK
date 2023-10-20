@@ -4,25 +4,27 @@ import User from './User';
 import Student from './Student' ;
 import Objectnew from './Object';
 import { useState } from 'react';
+import Person1 from './Person1';
+import Person2 from './Person2';
 
 
 function App() {
-  const [name,setName]=useState("default value");  
-  const [plus,setPlus]=useState(0)
-  const [b,setBvalue]=useState([])
+  // const [name,setName]=useState("default value");  
+  // const [plus,setPlus]=useState(0)
+  // const [b,setBvalue]=useState([])
 
-  function inc(){
-    setPlus(plus+1)
-  }
+  // function inc(){
+  //   setPlus(plus+1)
+  // }
 
-  function dec(){
-    setPlus(plus-1)
-  }
+  // function dec(){
+  //   setPlus(plus-1)
+  // }
   
 
   return (
     <div className="App">
-      <h1>app.js</h1>
+      {/* <h1>app.js</h1>
       <Student name={name} email="rg@t.com"/>
       <Student name={"random name"} email="gg@t.com"/>
       <button onClick={()=>setName("updated value")} >click to update</button>     
@@ -37,9 +39,10 @@ function App() {
         let a=[...b]
         a.push(parseInt(Math.random()*100))
         setBvalue(a)
-      }}>Click to add numbers like an array</button>
+      }}>Click to add numbers like an array</button> */}
 
-      
+      <Person1/>
+      <Person2 />
     </div>
   );
 }
